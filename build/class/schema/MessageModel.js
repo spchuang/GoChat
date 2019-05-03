@@ -1,0 +1,24 @@
+'use strict';
+
+var Model = function Model(sequelize, DataTypes) {
+  var model = sequelize.define('Message', {
+    content: {
+      type: DataTypes.STRING(255),
+      allowNull: false
+    }
+  }, {
+    charset: 'utf8',
+    collate: 'utf8_unicode_ci',
+    freezeTableName: true });
+
+  // Model tableName will be the same as the model name
+  model.associate = function (models) {
+    model.belongsTo(models.User, { foreignKey: 'senderID' });
+    model.belongsTo(models.User, { foreignKey: 'receiverID' });
+  };
+
+  return model;
+};
+
+module.exports = Model;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3NyYy9jbGFzcy9zY2hlbWEvTWVzc2FnZU1vZGVsLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7O0FBRUEsSUFBTSxRQUFRLFNBQVIsS0FBUSxDQUFTLFNBQVQsRUFBNEIsU0FBNUIsRUFBK0M7QUFDM0QsTUFBSSxRQUFRLFVBQVUsTUFBVixDQUFpQixTQUFqQixFQUE0QjtBQUN0QyxhQUFTO0FBQ1AsWUFBTSxVQUFVLE1BQVYsQ0FBaUIsR0FBakIsQ0FEQztBQUVQLGlCQUFXO0FBRko7QUFENkIsR0FBNUIsRUFLVDtBQUNELGFBQVMsTUFEUjtBQUVELGFBQVMsaUJBRlI7QUFHRCxxQkFBaUIsSUFIaEIsRUFMUyxDQUFaOzs7QUFXQSxRQUFNLFNBQU4sR0FBa0IsVUFBUyxNQUFULEVBQWlCO0FBQ2pDLFVBQU0sU0FBTixDQUFnQixPQUFPLElBQXZCLEVBQTZCLEVBQUMsWUFBWSxVQUFiLEVBQTdCO0FBQ0EsVUFBTSxTQUFOLENBQWdCLE9BQU8sSUFBdkIsRUFBNkIsRUFBQyxZQUFZLFlBQWIsRUFBN0I7QUFDRCxHQUhEOztBQUtBLFNBQU8sS0FBUDtBQUNELENBbEJEOztBQW9CQSxPQUFPLE9BQVAsR0FBaUIsS0FBakIiLCJmaWxlIjoiTWVzc2FnZU1vZGVsLmpzIiwic291cmNlc0NvbnRlbnQiOlsiLy8gQGZsb3dcblxuY29uc3QgTW9kZWwgPSBmdW5jdGlvbihzZXF1ZWxpemU6IE9iamVjdCwgRGF0YVR5cGVzOiBPYmplY3QpIHtcbiAgdmFyIG1vZGVsID0gc2VxdWVsaXplLmRlZmluZSgnTWVzc2FnZScsIHtcbiAgICBjb250ZW50OiB7XG4gICAgICB0eXBlOiBEYXRhVHlwZXMuU1RSSU5HKDI1NSksXG4gICAgICBhbGxvd051bGw6IGZhbHNlLFxuICAgIH0sXG4gIH0sIHtcbiAgICBjaGFyc2V0OiAndXRmOCcsXG4gICAgY29sbGF0ZTogJ3V0ZjhfdW5pY29kZV9jaScsXG4gICAgZnJlZXplVGFibGVOYW1lOiB0cnVlLCAvLyBNb2RlbCB0YWJsZU5hbWUgd2lsbCBiZSB0aGUgc2FtZSBhcyB0aGUgbW9kZWwgbmFtZVxuICB9KTtcblxuICBtb2RlbC5hc3NvY2lhdGUgPSBmdW5jdGlvbihtb2RlbHMpIHtcbiAgICBtb2RlbC5iZWxvbmdzVG8obW9kZWxzLlVzZXIsIHtmb3JlaWduS2V5OiAnc2VuZGVySUQnfSk7XG4gICAgbW9kZWwuYmVsb25nc1RvKG1vZGVscy5Vc2VyLCB7Zm9yZWlnbktleTogJ3JlY2VpdmVySUQnfSk7XG4gIH07XG5cbiAgcmV0dXJuIG1vZGVsO1xufTtcblxubW9kdWxlLmV4cG9ydHMgPSBNb2RlbDtcbiJdfQ==

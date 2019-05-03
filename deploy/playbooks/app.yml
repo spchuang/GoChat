@@ -1,0 +1,33 @@
+---
+- include: init.yml
+- hosts: app
+  roles:
+    - { role: kamaln7.swapfile, swapfile_use_dd: True, swapfile_size: 1000, swapfile_swappiness: 10, swapfile_location: /mnt/swapfile }
+    - { role: williamyeh.nodejs, nodejs_version: 5.12.0 }
+
+  tasks:
+    - name: Install Packages
+      become: yes
+      become_method: sudo
+      apt: name={{ item }} update_cache=yes state=latest
+      with_items:
+        - git
+        - build-essential
+
+    - name: Install pm2
+      become: yes
+      become_method: sudo
+      npm: name=pm2 global=yes state=present production=yes
+
+    - name: Create project folder
+      file: path={{project_root}}/{{project_name}} group={{web_user}} owner={{web_user}} mode=6755 state=directory
+
+    - name: Add pm2 start script
+      template: src=templates/app.j2 dest={{project_root}}/{{project_name}}.json
+
+    # TODO: figure out how to handle reboot properly (check out the ansible-pm2 module)
+    #- name: Create systemd for app
+    #  become: yes
+    #  become_method: sudo
+    #  command: pm2 startup systemd -u {{web_user}} --hp /home/{{web_user}}
+    #  ignore_errors: yes

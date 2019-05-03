@@ -1,0 +1,1352 @@
+[
+  {
+    "namespace": "normal",
+    "name": "Black",
+    "data": {
+      "en": "⚫️",
+      "jp": "⚫️",
+      "zh_cn": "⚫️",
+      "zh_tw": "⚫️"
+    }
+  },
+  {
+    "namespace": "normal",
+    "name": "White",
+    "data": {
+      "en": "⚪️",
+      "jp": "⚪️",
+      "zh_cn": "⚪️",
+      "zh_tw": "⚪️"
+    }
+  },
+  {
+    "namespace": "normal",
+    "name": "You",
+    "data": {
+      "en": "You",
+      "jp": "あなた",
+      "zh_cn": "你",
+      "zh_tw": "你"
+    }
+  },
+  {
+    "namespace": "normal",
+    "name": "Opponent",
+    "data": {
+      "en": "Opponent",
+      "jp": "相手",
+      "zh_cn": "对手",
+      "zh_tw": "對手"
+    }
+  },
+  {
+    "namespace": "normal",
+    "name": "shareFriendPlayBubbleTitle",
+    "data": {
+      "en": "Your friend %{name} invited you to play Go on GoChat",
+      "jp": "あなたの友達 %{name} はGoChatに招待しました",
+      "zh_cn": "你的朋友 %{name} 邀请你在 GoChat 上玩围棋",
+      "zh_tw": "你的朋友 %{name} 邀請你在 GoChat 上玩圍棋"
+    }
+  },
+  {
+    "namespace": "normal",
+    "name": "shareFriendPlayBubbleContent",
+    "data": {
+      "en": "Enter the code \"%{code}\" to join a game with your friend.",
+      "jp": "このパスワード \"%{code}\" で友達と対局を始めてください",
+      "zh_cn": "请使用密码 \"%{code}\" 来开始对弈",
+      "zh_tw": "請使用密碼 \"%{code}\" 來開始對弈"
+    }
+  },
+  {
+    "namespace": "persistedMenu",
+    "name": "gameTopMenu",
+    "data": {
+      "en": "Game",
+      "zh_cn": "游戏",
+      "zh_tw": "遊戲",
+      "jp": "ゲーム"
+    }
+  },
+  {
+    "namespace": "persistedMenu",
+    "name": "currentGameMenu",
+    "data": {
+      "en": "Focused game",
+      "zh_cn": "专注的对弈",
+      "zh_tw": "專注的對弈",
+      "jp": "集中な対局"
+    }
+  },
+  {
+    "namespace": "persistedMenu",
+    "name": "generalTopMenu",
+    "data": {
+      "en": "Main menu",
+      "zh_cn": "主选单",
+      "zh_tw": "主選單",
+      "jp": "メインメニュー"
+    }
+  },
+  {
+    "namespace": "persistedMenu",
+    "name": "more",
+    "data": {
+      "en": "More",
+      "zh_cn": "其他",
+      "zh_tw": "其他",
+      "jp": "その他のメニュー"
+    }
+  },
+  {
+    "namespace": "normalMessage",
+    "name": "startAnotherGame",
+    "data": {
+      "en": "Absolutely! It is easy to play multiple games at the same time. ",
+      "zh_cn": "没问题！你可以一次下很多盘棋。",
+      "zh_tw": "沒問題！你可以一次下很多盤棋。",
+      "jp": "もちろんです！多くの对弈することができます。"
+    }
+  },
+  {
+    "namespace": "normalMessage",
+    "name": "welcome",
+    "data": {
+      "en": "Welcome to GoChat. We make it easy for you to play Go right in Messenger Chat!",
+      "jp": "GoChatへようこそ。Gochatを通してMessenger Chatで囲碁を遊ぶことができます。",
+      "zh_cn": "欢迎使用 GoChat。 你可以使用 GoChat 直接在 Messenger Chat 里玩围棋",
+      "zh_tw": "歡迎使用 GoChat。 你可以使用 GoChat 直接在 Messenger Chat 裡玩圍棋"
+    }
+  },
+  {
+    "namespace": "normalMessage",
+    "name": "playWithFriend",
+    "data": {
+      "en": "GoChat makes it easy for you to play go with your friends. First, create a game room with a secret code. Then have your friend enter that code in GoChat to start the game! If you already have the code for your friend, click \"Join a room\".",
+      "jp": "友達と対局。まず、対局室を作成して、パスワードを設定してください。同じパスワードを友達に入力してもらうと、対局が始まります。すでに友達からパスワードをもらっている場合、\"対局室に入る\"ボタンを押してください。",
+      "zh_cn": "与朋友对弈。 首先， 创建一个游戏室并设置一个密码。 之后， 请你的朋友输入相同的密码之后对弈即可开始。如果你的朋友已传送给你游戏室密码，请按 \"进入游戏室\"",
+      "zh_tw": "與朋友對弈。 首先， 創建一個遊戲室並設置一個密碼。 之後， 請你的朋友輸入相同的密碼之後對弈即可開始。如果你的朋友已傳送給你遊戲室密碼，請按 \"進入遊戲室\""
+    }
+  },
+  {
+    "namespace": "normalMessage",
+    "name": "whichLanguage",
+    "data": {
+      "en": "Which language would you like to use?",
+      "jp": "どちらの言語を使用されますか？",
+      "zh_cn": "你想使用哪种语言？",
+      "zh_tw": "你想使用哪種語言？"
+    }
+  },
+  {
+    "namespace": "normalMessage",
+    "name": "languageSaved",
+    "data": {
+      "en": "You have successfully saved your language as English",
+      "jp": "言語を日本語に設定しました。",
+      "zh_cn": "已设置语言为简体中文",
+      "zh_tw": "已設置語言為繁體中文"
+    }
+  },
+  {
+    "namespace": "normalMessage",
+    "name": "enterCodeForRoom",
+    "data": {
+      "en": "Please enter the code for your friend's game room.",
+      "jp": "対局室のパスワードを入力してください。",
+      "zh_cn": "请输入游戏室密码",
+      "zh_tw": "請輸入遊戲室密碼"
+    }
+  },
+  {
+    "namespace": "normalMessage",
+    "name": "quitJoinRoom",
+    "data": {
+      "en": "Alright, what do you want to do now?",
+      "jp": "対局室から退室します。これから何をしたいですか？",
+      "zh_cn": "已停止进入游戏室，接下来你想做什么？",
+      "zh_tw": "已停止進入遊戲室，接下來你想做什麼？"
+    }
+  },
+  {
+    "namespace": "normalMessage",
+    "name": "sendCodeToFriend",
+    "data": {
+      "en": "Please send a code for your game room. Your friend can enter the same code to join the game.",
+      "jp": "あなたの対局室のパスワードを設定してください。このパスワードで友達を対局室に招待し、一緒に遊ぶことができます。",
+      "zh_cn": "请设定你的游戏室的密码，你的朋友将使用这个密码进入游戏室开始与你对弈",
+      "zh_tw": "請設定你的遊戲室的密碼，你的朋友將使用這個密碼進入遊戲室開始與你對弈"
+    }
+  },
+  {
+    "namespace": "normalMessage",
+    "name": "roomCreated",
+    "data": {
+      "en": "You just created a game room with the code \"%{code}\". Please share this code with your friend to start playing!",
+      "jp": "対局室を作成しました。パスワードは \"%{code}\".このパスワードで友達と対局を始めてください。",
+      "zh_cn": "创建游戏室成功，密码是 \"%{code}\". 请使用这个密码与朋友开始对弈",
+      "zh_tw": "創建遊戲室成功，密碼是 \"%{code}\". 請使用這個密碼與朋友開始對弈"
+    }
+  },
+  {
+    "namespace": "normalMessage",
+    "name": "youAreNotPlayingAnyGame",
+    "data": {
+      "en": "You are not playing any game right now! Please try again when you are playing.",
+      "zh_cn": "你现在没有进行中的遊戏。请加入遊戏後再试一次。",
+      "zh_tw": "你現在沒有進行中的遊戲。請加入遊戲後再試一次。",
+      "jp": "あなたは進行中のゲームを持っていません。ゲームに参加するために、後でもう一度試してください。"
+    }
+  },
+  {
+    "namespace": "normalMessage",
+    "name": "NeedToInputTokenForWebView",
+    "data": {
+      "en": "We cannot get your Facebook ID because this browser is not supported. Please copy and paste the \"token\" from Messenger chat to continue.",
+      "zh_cn": "我们无法获取您的Facebook ID，因为不支持此浏览器。请从Messenger聊天中复制并剪贴“代码”以继续。",
+      "zh_tw": "我們無法獲取您的Facebook ID，因為不支持此瀏覽器。請從Messenger聊天中復制並剪貼“代碼”以繼續。",
+      "jp": "このブラウザはサポートされていないため、Facebook IDを取得できません。メッセンジャーチャットから「コード」をコピー＆ペーストして、続行してください。"
+    }
+  },
+  {
+    "namespace": "normalMessage",
+    "name": "copyAndPasteToken",
+    "data": {
+      "en": "Please copy and paste the following code.",
+      "zh_cn": "请复制并粘贴以下代码",
+      "zh_tw": "請復制並剪貼以下代碼",
+      "jp": "次のコードをコピーして貼り付けてください"
+    }
+  },
+  {
+    "namespace": "normalMessage",
+    "name": "gameCreatedAt",
+    "data": {
+      "en": "",
+      "zh_cn": "",
+      "zh_tw": "",
+      "jp": ""
+    }
+  },
+  {
+    "namespace": "typedException",
+    "name": "CANT_JOIN_OWN_ROOM",
+    "data": {
+      "en": "You can't join your own room! Please try another code!",
+      "jp": "あなたが作った対局室の中にいます。他のパスワードを入力してください。",
+      "zh_cn": "你已在自己创举的游戏室当中！ 请重新输入其他密码!",
+      "zh_tw": "你已在自己創舉的遊戲室當中！ 請重新輸入其他密碼!"
+    }
+  },
+  {
+    "namespace": "typedException",
+    "name": "NO_ROOM_WITH_CODE",
+    "data": {
+      "en": "There is no room with the code \"%{code}\". Please try another code!",
+      "jp": "\"％{code}\"で作成した対局室はありません。もう一度パスワードを入力してください。",
+      "zh_cn": "没有用 \"%{code}\" 创建的游戏室。 请重新输入其他密码!",
+      "zh_tw": "沒有用 \"%{code}\" 創建的遊戲室。 請重新輸入其他密碼!"
+    }
+  },
+  {
+    "namespace": "typedException",
+    "name": "ROOM_ALREADY_CREATED",
+    "data": {
+      "en": "You already have a room created with the code \"%{roomCode}\". Please use that code to start a game with your friend.",
+      "jp": "対局室を作成しました。パスワード：\"%{roomCode}\". このパスワードで友達を対局室に誘ってください。",
+      "zh_cn": "你已经创建一个游戏室， 密码：\"%{roomCode}\"。 请使用这个密码邀请朋友进入游戏室",
+      "zh_tw": "你已經創建一個遊戲室， 密碼：\"%{roomCode}\"。 請使用這個密碼邀請朋友進入遊戲室"
+    }
+  },
+  {
+    "namespace": "typedException",
+    "name": "alreadyInGame",
+    "data": {
+      "en": "You're already playing a game. Please quit to start a new one",
+      "jp": "対局中です。新しく対局を始めたい場合は、中断してください。",
+      "zh_cn": "你已在对弈中，请先结束对弈",
+      "zh_tw": "你已在對弈中，請先結束對弈"
+    }
+  },
+  {
+    "namespace": "typedException",
+    "name": "PLAY_OUT_OF_BOUND",
+    "data": {
+      "en": "The position played is out of the boards boundary",
+      "jp": "あなたの打った場所は碁盤の範囲外です。",
+      "zh_cn": "你所下的位置在棋盘范围之外",
+      "zh_tw": "你所下的位置在棋盤範圍之外"
+    }
+  },
+  {
+    "namespace": "typedException",
+    "name": "PLAY_ON_EXISTING_STONE",
+    "data": {
+      "en": "The position played is already occupied",
+      "jp": "あなたが打った場所にはすでに石があります。",
+      "zh_cn": "你所下的位置已被其他棋子占据",
+      "zh_tw": "你所下的位置已被其他棋子佔據"
+    }
+  },
+  {
+    "namespace": "typedException",
+    "name": "NOT_PLAYER_TURN",
+    "data": {
+      "en": "It is currently not your turn",
+      "jp": "相手の手番です。",
+      "zh_cn": "现在轮到对手下棋",
+      "zh_tw": "現在輪到對手下棋"
+    }
+  },
+  {
+    "namespace": "typedException",
+    "name": "VIOLATION_OF_KO",
+    "data": {
+      "en": "Violating the Ko rule!",
+      "jp": "コウ（着手禁止）です！",
+      "zh_cn": "违反禁止自杀规则",
+      "zh_tw": "違反禁止自殺規則"
+    }
+  },
+  {
+    "namespace": "typedException",
+    "name": "invalidMove",
+    "data": {
+      "en": "Invalid Move!",
+      "jp": "この手は無効です！",
+      "zh_cn": "指令无效！",
+      "zh_tw": "指令無效！"
+    }
+  },
+  {
+    "namespace": "typedException",
+    "name": "undoError",
+    "data": {
+      "en": "Something went wrong with undoing the move.",
+      "jp": "元に戻すにエラーが発生しました。",
+      "zh_cn": "悔棋时有错误。",
+      "zh_tw": "悔棋時有錯誤。"
+    }
+  },
+  {
+    "namespace": "typedException",
+    "name": "NOT_PROPER_GAME_CODE",
+    "data": {
+      "en": "The code could only be made of numbers. An example is \"12345\". Please try again!",
+      "jp": "パスワードは数字,を使用することができます。例: 12345",
+      "zh_cn": "密码必须是数字。例子：\"12345\"。请重试！",
+      "zh_tw": "密碼必須是數字。例子：\"12345\"。請重試！"
+    }
+  },
+  {
+    "namespace": "typedException",
+    "name": "notProperMove",
+    "data": {
+      "en": "That was an invalid input. A play command looks like \"A,9\" or \"B10\". Please try again. Send \"help\" or \"?\" to get the help menu.",
+      "jp": "無効な手です。\"A,9\"もしくは\"B10\"ですか？もう一度試してください。\"h\" または \"?\"でヘルプメニューを呼び出します。",
+      "zh_cn": "这是个无效的一手。 正确的指令的例子： \"A,9\" 或 \"B10\"。 请重试。 发送 \"h\" 或 \"?\" 来开启帮助介面",
+      "zh_tw": "這是個無效的一手。 正確的指令的例子： \"A,9\" 或 \"B10\"。 請重試。 發送 \"h\" 或 \"?\" 來開啟幫助介面"
+    }
+  },
+  {
+    "namespace": "typedException",
+    "name": "SOMETHING_IS_WRONG",
+    "data": {
+      "en": "Sorry, something went wrong. Please try again.",
+      "zh_cn": "抱歉有错误，请重新尝试。",
+      "zh_tw": "抱歉有錯誤，請重新嘗試。",
+      "jp": " エラー申し訳ありませんが、再度お試しください。"
+    }
+  },
+  {
+    "namespace": "button",
+    "name": "shareRoom",
+    "data": {
+      "en": "Share room",
+      "jp": "局室に招待する",
+      "zh_cn": "分享遊戏室",
+      "zh_tw": "分享遊戲室"
+    }
+  },
+  {
+    "namespace": "button",
+    "name": "createGame",
+    "data": {
+      "en": "Create a game",
+      "jp": "ゲームを作る",
+      "zh_cn": "创立游戏",
+      "zh_tw": "創立遊戲"
+    }
+  },
+  {
+    "namespace": "button",
+    "name": "quitGame",
+    "data": {
+      "en": "Quit",
+      "jp": "やめる",
+      "zh_cn": "结束",
+      "zh_tw": "結束"
+    }
+  },
+  {
+    "namespace": "button",
+    "name": "playWithSelf",
+    "data": {
+      "en": "Play with yourself",
+      "jp": "人工知能と対局",
+      "zh_cn": "与人工智能对弈",
+      "zh_tw": "與人工智能對弈"
+    }
+  },
+  {
+    "namespace": "button",
+    "name": "playWithAI",
+    "data": {
+      "en": "Play with AI",
+      "jp": "自分と対局",
+      "zh_cn": "与自己对弈",
+      "zh_tw": "與自己對弈"
+    }
+  },
+  {
+    "namespace": "button",
+    "name": "setLanguage",
+    "data": {
+      "en": "Set Language",
+      "jp": "言語を設定",
+      "zh_cn": "设置语言",
+      "zh_tw": "設置語言"
+    }
+  },
+  {
+    "namespace": "button",
+    "name": "joinARoom",
+    "data": {
+      "en": "Join a room",
+      "jp": "対局室に入る",
+      "zh_cn": "加入游戏室",
+      "zh_tw": "加入遊戲室"
+    }
+  },
+  {
+    "namespace": "button",
+    "name": "stopJoiningRoom",
+    "data": {
+      "en": "Stop joining room",
+      "jp": "対局室から退室する",
+      "zh_cn": "停止进入游戏室",
+      "zh_tw": "停止進入遊戲室"
+    }
+  },
+  {
+    "namespace": "button",
+    "name": "createARoom",
+    "data": {
+      "en": "Create a room",
+      "jp": "対局室を作成",
+      "zh_cn": "创建游戏室",
+      "zh_tw": "創建遊戲室"
+    }
+  },
+  {
+    "namespace": "button",
+    "name": "showCurrentBoard",
+    "data": {
+      "en": "Show current board",
+      "jp": "碁盤を見せる",
+      "zh_cn": "查看棋盘",
+      "zh_tw": "查看棋盤"
+    }
+  },
+  {
+    "namespace": "button",
+    "name": "passMove",
+    "data": {
+      "en": "Pass",
+      "jp": "パス",
+      "zh_cn": "放弃著手",
+      "zh_tw": "放棄著手"
+    }
+  },
+  {
+    "namespace": "button",
+    "name": "resignGame",
+    "data": {
+      "en": "Resign",
+      "jp": "投了",
+      "zh_cn": "投降",
+      "zh_tw": "投降"
+    }
+  },
+  {
+    "namespace": "button",
+    "name": "helpMenu",
+    "data": {
+      "en": "Help",
+      "jp": "ヘルプ",
+      "zh_cn": "帮助",
+      "zh_tw": "幫助"
+    }
+  },
+  {
+    "namespace": "button",
+    "name": "undoMove",
+    "data": {
+      "en": "Undo",
+      "jp": "回棋",
+      "zh_cn": "悔棋",
+      "zh_tw": "悔棋"
+    }
+  },
+  {
+    "namespace": "button",
+    "name": "share",
+    "data": {
+      "en": "Share",
+      "jp": "シェア",
+      "zh_cn": "分享",
+      "zh_tw": "分享"
+    }
+  },
+  {
+    "namespace": "button",
+    "name": "playWithFriend",
+    "data": {
+      "en": "Play with a friend",
+      "jp": "友達と対局",
+      "zh_cn": "与朋友对弈",
+      "zh_tw": "與朋友對弈"
+    }
+  },
+  {
+    "namespace": "button",
+    "name": "playAnotherGame",
+    "data": {
+      "en": "Play another game",
+      "zh_cn": "\b再下一盘",
+      "zh_tw": "再下一盤",
+      "jp": "もっと對弈する"
+    }
+  },
+  {
+    "namespace": "button",
+    "name": "showActiveGames",
+    "data": {
+      "en": "Show active games",
+      "zh_cn": "看进行中对弈",
+      "zh_tw": "看進行中對弈",
+      "jp": "對弈を見る"
+    }
+  },
+  {
+    "namespace": "button",
+    "name": "focusOnGame",
+    "data": {
+      "en": "Focus",
+      "zh_cn": "专注",
+      "zh_tw": "專注",
+      "jp": "集中する"
+    }
+  },
+  {
+    "namespace": "button",
+    "name": "join",
+    "data": {
+      "en": "Join",
+      "zh_cn": "入る",
+      "zh_tw": "加入",
+      "jp": "加入"
+    }
+  },
+  {
+    "namespace": "button",
+    "name": "showBoard",
+    "data": {
+      "en": "Show board",
+      "zh_cn": "看棋盘",
+      "zh_tw": "看棋盤",
+      "jp": "碁盤を見る"
+    }
+  },
+  {
+    "namespace": "button",
+    "name": "sendMessage",
+    "data": {
+      "en": "Send message",
+      "zh_cn": "送讯息",
+      "zh_tw": "送訊息",
+      "jp": "メッセージ"
+    }
+  },
+  {
+    "namespace": "button",
+    "name": "messageHurryUp",
+    "data": {
+      "en": "Hurry up 🙏",
+      "zh_cn": "请快下 🙏",
+      "zh_tw": "請快下 🙏",
+      "jp": "急いでください 🙏"
+    }
+  },
+  {
+    "namespace": "button",
+    "name": "messageGoodMove",
+    "data": {
+      "en": "Good move 👍",
+      "zh_cn": "好棋 👍",
+      "zh_tw": "好棋 👍",
+      "jp": "グッド・ムーブ 👍"
+    }
+  },
+  {
+    "namespace": "button",
+    "name": "messageOops",
+    "data": {
+      "en": "Oops ...😱",
+      "zh_cn": "啊啊...😱",
+      "zh_tw": "啊啊...😱",
+      "jp": "ああ...😱"
+    }
+  },
+  {
+    "namespace": "button",
+    "name": "messageThankYou",
+    "data": {
+      "en": "Thank you 😃",
+      "zh_cn": "谢谢 😃",
+      "zh_tw": "謝謝 😃",
+      "jp": "ありがとう 😃"
+    }
+  },
+  {
+    "namespace": "button",
+    "name": "messageGoodGame",
+    "data": {
+      "en": "gg ✌️",
+      "zh_cn": "gg ✌️",
+      "zh_tw": "gg ✌️",
+      "jp": "gg ✌️"
+    }
+  },
+  {
+    "namespace": "button",
+    "name": "simulateGame",
+    "data": {
+      "en": "Simulate moves",
+      "zh_cn": "棋盘模拟",
+      "zh_tw": "棋盤模擬",
+      "jp": "碁盤をシミュレート"
+    }
+  },
+  {
+    "namespace": "button",
+    "name": "enter",
+    "data": {
+      "en": "Enter",
+      "zh_cn": "输入",
+      "zh_tw": "输入",
+      "jp": "入力"
+    }
+  },
+  {
+    "namespace": "button",
+    "name": "messengerToken",
+    "data": {
+      "en": "Show token",
+      "zh_cn": "显示代码",
+      "zh_tw": "顯示代碼",
+      "jp": "コードを表示"
+    }
+  },
+  {
+    "namespace": "button",
+    "name": "gameHistory",
+    "data": {
+      "en": "Game history",
+      "zh_cn": "遊戏纪录",
+      "zh_tw": "遊戲紀錄",
+      "jp": " ゲームの記録"
+    }
+  },
+  {
+    "namespace": "button",
+    "name": "downloadSGF",
+    "data": {
+      "en": "Download SGF",
+      "zh_cn": "下载SGF",
+      "zh_tw": "下載SGF",
+      "jp": "SGFをダウンロード"
+    }
+  },
+  {
+    "namespace": "button",
+    "name": "replayGame",
+    "data": {
+      "en": "Replay game",
+      "zh_cn": "观看棋局",
+      "zh_tw": "觀看棋局",
+      "jp": "リプレイゲーム"
+    }
+  },
+  {
+    "namespace": "button",
+    "name": "countScore",
+    "data": {
+      "en": "Count Score",
+      "zh_cn": "计算目数",
+      "zh_tw": "計算目數",
+      "jp": "スコアを数える"
+    }
+  },
+  {
+    "namespace": "button",
+    "name": "sendScoreRequest",
+    "data": {
+      "en": "Send Score Request",
+      "zh_cn": "发出数目要求",
+      "zh_tw": "發出數目要求",
+      "jp": "スコアリクエストを送ります"
+    }
+  },
+  {
+    "namespace": "button",
+    "name": "updateScore",
+    "data": {
+      "en": "Update Score",
+      "zh_cn": "更新数目",
+      "zh_tw": "更新數目",
+      "jp": "スコアを更新"
+    }
+  },
+  {
+    "namespace": "button",
+    "name": "cancel",
+    "data": {
+      "en": "Cancel",
+      "zh_cn": "取消",
+      "zh_tw": "取消",
+      "jp": "取消"
+    }
+  },
+  {
+    "namespace": "button",
+    "name": "replyMessage",
+    "data": {
+      "en": "Reply message",
+      "zh_cn": "回复信息",
+      "zh_tw": "回復信息",
+      "jp": "メッセージに返信する"
+    }
+  },
+  {
+    "namespace": "inGameMessage",
+    "name": "lastStone",
+    "data": {
+      "en": " The last stone was placed at %{lastStoneText}.",
+      "jp": " 一手前は %{lastStoneText} に石を置きました。",
+      "zh_cn": " 上一手的位置： %{lastStoneText}",
+      "zh_tw": " 上一手的位置： %{lastStoneText}"
+    }
+  },
+  {
+    "namespace": "inGameMessage",
+    "name": "inGameHelp",
+    "data": {
+      "en": "How can I help you?",
+      "jp": "お手伝いしましょうか？",
+      "zh_cn": "你需要什麽帮助？",
+      "zh_tw": "你需要什麼幫助？"
+    }
+  },
+  {
+    "namespace": "inGameMessage",
+    "name": "gameOverConsecutivePasses",
+    "data": {
+      "en": "There are two consectutive passes. The game is over. Quitting the game.",
+      "jp": "連続でパスをしたので終局です。対局を中断しています。",
+      "zh_cn": "连续两次放弃著手，对弈结束。结束对弈中。",
+      "zh_tw": "連續兩次放棄著手，對弈結束。結束對弈中。"
+    }
+  },
+  {
+    "namespace": "inGameMessage",
+    "name": "selfUndoMove",
+    "data": {
+      "en": "You just undid the last move.",
+      "jp": "あなた回棋ともいました。",
+      "zh_cn": "你刚悔了棋。",
+      "zh_tw": "你剛悔了棋。"
+    }
+  },
+  {
+    "namespace": "inGameMessage",
+    "name": "enemyUndoMove",
+    "data": {
+      "en": "%{enemy} (%{color}) just undid the last move.",
+      "jp": "%{enemy} (%{color}) 回棋ともいました。",
+      "zh_cn": "%{enemy} (%{color}) 刚悔了棋。",
+      "zh_tw": "%{enemy} (%{color}) 剛悔了棋。"
+    }
+  },
+  {
+    "namespace": "inGameMessage",
+    "name": "startNewGame",
+    "data": {
+      "en": "You just started a new game with %{enemy}. %{nextUser} (%{nextColor}) to play.",
+      "jp": "%{enemy}と新しい対局を始めます。 %{nextUser} (%{nextColor}) の手番です。",
+      "zh_cn": "你刚创建了跟%{enemy}的新游戏， 轮到%{nextUser} (%{nextColor}) 了",
+      "zh_tw": "你剛創建了跟%{enemy}的新遊戲， 輪到%{nextUser} (%{nextColor}) 了"
+    }
+  },
+  {
+    "namespace": "inGameMessage",
+    "name": "selfPlayMove",
+    "data": {
+      "en": "You (%{color}) just made a move at %{positionText}.",
+      "jp": "あなた (%{color}) は %{positionText} に打ちました。",
+      "zh_cn": "你 (%{color}) 刚下在 %{positionText}。",
+      "zh_tw": "你 (%{color}) 剛下在 %{positionText}。"
+    }
+  },
+  {
+    "namespace": "inGameMessage",
+    "name": "enemyPlayMove",
+    "data": {
+      "en": "%{enemy} (%{color}) just made a move at %{positionText}.",
+      "jp": "%{enemy} (%{color}) は %{positionText} に打ちました。",
+      "zh_cn": "%{enemy} (%{color}) 刚下在 %{positionText}。",
+      "zh_tw": "%{enemy} (%{color}) 剛下在 %{positionText}。"
+    }
+  },
+  {
+    "namespace": "inGameMessage",
+    "name": "selfTurnToPlay",
+    "data": {
+      "en": "Your (%{color}) turn to play.",
+      "jp": "あなた (%{color}) の手番です。",
+      "zh_cn": "轮到你 (%{color}) 下棋了。",
+      "zh_tw": "輪到你 (%{color}) 下棋了。"
+    }
+  },
+  {
+    "namespace": "inGameMessage",
+    "name": "enemyTurnToPlay",
+    "data": {
+      "en": "%{enemy}'s (%{color}) turn to play.",
+      "jp": "%{enemy} (%{color}) の手番です。",
+      "zh_cn": "轮到%{enemy} (%{color}) 下棋了 。",
+      "zh_tw": "輪到%{enemy} (%{color}) 下棋了。"
+    }
+  },
+  {
+    "namespace": "inGameMessage",
+    "name": "selfQuitGame",
+    "data": {
+      "en": "You just quit the game! ",
+      "jp": "あなた投了しました！",
+      "zh_cn": "你刚结束了对弈！",
+      "zh_tw": "你剛結束了對弈！"
+    }
+  },
+  {
+    "namespace": "inGameMessage",
+    "name": "enemyQuitGame",
+    "data": {
+      "en": "%{enemy} just quit the game. You win!",
+      "jp": "%{enemy}は投了しました。",
+      "zh_cn": "%{enemy}已结束对弈。你赢了！",
+      "zh_tw": "%{enemy}已結束對弈。你贏了！"
+    }
+  },
+  {
+    "namespace": "inGameMessage",
+    "name": "selfPassMove",
+    "data": {
+      "en": "You just made a pass move.",
+      "jp": "あなたはパスしました。",
+      "zh_cn": "你刚放弃著手。",
+      "zh_tw": "你剛放棄著手。"
+    }
+  },
+  {
+    "namespace": "inGameMessage",
+    "name": "enemyPassMove",
+    "data": {
+      "en": "%{enemy} just made a pass move.",
+      "jp": "%{enemy}はパスしました。",
+      "zh_cn": "%{enemy}刚放弃著手。",
+      "zh_tw": "%{enemy}剛放棄著手。"
+    }
+  },
+  {
+    "namespace": "inGameMessage",
+    "name": "self",
+    "data": {
+      "en": "yourself",
+      "zh_cn": "自己",
+      "zh_tw": "自己",
+      "jp": "自分"
+    }
+  },
+  {
+    "namespace": "inGameMessage",
+    "name": "activeGameText",
+    "data": {
+      "en": "You have %{numActiveGames} active games.",
+      "zh_cn": "你有%{numActiveGames}个进行中的对弈。",
+      "zh_tw": "你有%{numActiveGames}個進行中的對弈。",
+      "jp": "あなたは%{numActiveGames}の対局があります。"
+    }
+  },
+  {
+    "namespace": "inGameMessage",
+    "name": "activeGameElementTitle",
+    "data": {
+      "en": "Game with %{opponentName}",
+      "zh_cn": "跟%{opponentName}的对弈",
+      "zh_tw": "跟%{opponentName}的對弈",
+      "jp": "%{opponentName}の対局"
+    }
+  },
+  {
+    "namespace": "inGameMessage",
+    "name": "newGameMoveAskUserToFocus",
+    "data": {
+      "en": "You Are not focused on this game yet. Please focus to make a move.",
+      "zh_cn": "你并没有专注在这场遊戏。如果你要回覆，请按“专注”。",
+      "zh_tw": "你並沒有專注在這場遊戲。如果你要回覆，請按“專注”。",
+      "jp": "あなたはこのゲームに集中していません。返信したら、「集中」を押してください。"
+    }
+  },
+  {
+    "namespace": "inGameMessage",
+    "name": "whatDoYouWantToSay",
+    "data": {
+      "en": "What do you want to say?",
+      "zh_cn": "你想说什麽？",
+      "zh_tw": "你想說什麼？",
+      "jp": "どう思いますか？"
+    }
+  },
+  {
+    "namespace": "inGameMessage",
+    "name": "receivedMessageFromOpponent",
+    "data": {
+      "en": "%{enemy} just said \"%{message}\"",
+      "zh_cn": "%{enemy}刚說 \"%{message}\"",
+      "zh_tw": "%{enemy}剛說 \"%{message}\"",
+      "jp": "%{enemy}は\"%{message}\"と言った"
+    }
+  },
+  {
+    "namespace": "inGameMessage",
+    "name": "noSendMessageToSelf",
+    "data": {
+      "en": "You are focusing on a game with yourself and you can't send message.",
+      "zh_cn": "",
+      "zh_tw": "",
+      "jp": ""
+    }
+  },
+  {
+    "namespace": "inGameMessage",
+    "name": "alreadyFocusedOnTheGame",
+    "data": {
+      "en": "You are already focused on this game.",
+      "zh_cn": "你已经专注这场棋了。",
+      "zh_tw": "你已經專注這場棋了。",
+      "jp": "あなたはこのゲームを集中しています。"
+    }
+  },
+  {
+    "namespace": "inGameMessage",
+    "name": "notPlayingWhatDoYouWantToDo",
+    "data": {
+      "en": "You are not playing any game, what do you want to do now?",
+      "zh_cn": "你没有在进行中的遊戏，接下来你想做什麽？",
+      "zh_tw": "你沒有在進行中的遊戲，接下來你想做什麼？",
+      "jp": "これから何をしたいですか？"
+    }
+  },
+  {
+    "namespace": "inGameMessage",
+    "name": "focusOnGameWith",
+    "data": {
+      "en": "You are currently focusing on a game with %{opponentName}.",
+      "zh_cn": "你正专注跟%{opponentName}的对弈中。",
+      "zh_tw": "你正專注跟%{opponentName}的對弈中。",
+      "jp": "あなたは%{opponentName}の対局に集中しているです。"
+    }
+  },
+  {
+    "namespace": "inGameMessage",
+    "name": "gameInScoreCounting",
+    "data": {
+      "en": "The game with %{opponentName} is over. Please count the scores.",
+      "zh_cn": "跟%{opponentName}的对弈已结束，请计算目数。",
+      "zh_tw": "跟%{opponentName}的對弈已結束，請計算目數。",
+      "jp": "%{opponentName}との試合は終わった。スコアを数えてください。"
+    }
+  },
+  {
+    "namespace": "inGameMessage",
+    "name": "notYourTurnToUndo",
+    "data": {
+      "en": "Sorry, you can only undo on your turn.",
+      "zh_cn": "只能在你的回合悔棋。",
+      "zh_tw": "只能在你的回合悔棋。",
+      "jp": " あなたのターンでチェスを後悔できるだけです"
+    }
+  },
+  {
+    "namespace": "createGame",
+    "name": "boardSizeLabel",
+    "data": {
+      "en": "Board Size:",
+      "zh_cn": "棋盘：",
+      "zh_tw": "棋盤：",
+      "jp": "碁盤："
+    }
+  },
+  {
+    "namespace": "createGame",
+    "name": "colorLabel",
+    "data": {
+      "en": "Your color:",
+      "zh_cn": "您执：",
+      "zh_tw": "您執：",
+      "jp": "碁石："
+    }
+  },
+  {
+    "namespace": "createGame",
+    "name": "whoToPlayWithLabel",
+    "data": {
+      "en": "Who do you want to play with?",
+      "zh_cn": "你想要跟谁对战？",
+      "zh_tw": "你想要跟誰對戰？",
+      "jp": "対戰相手："
+    }
+  },
+  {
+    "namespace": "createGame",
+    "name": "optionPlayWithFriend",
+    "data": {
+      "en": "Friend",
+      "zh_cn": "朋友",
+      "zh_tw": "朋友",
+      "jp": "友達"
+    }
+  },
+  {
+    "namespace": "createGame",
+    "name": "optionPlayWithSelf",
+    "data": {
+      "en": "Myself",
+      "zh_cn": "自己",
+      "zh_tw": "自己",
+      "jp": "自分"
+    }
+  },
+  {
+    "namespace": "createGame",
+    "name": "optionPlayWithAI",
+    "data": {
+      "en": "AI",
+      "zh_cn": "人工智能",
+      "zh_tw": "人工智能",
+      "jp": "人工知能"
+    }
+  },
+  {
+    "namespace": "createGame",
+    "name": "optionColorBlack",
+    "data": {
+      "en": "Black",
+      "zh_cn": "黑子",
+      "zh_tw": "黑子",
+      "jp": "先手(黑）"
+    }
+  },
+  {
+    "namespace": "createGame",
+    "name": "optionColorWhite",
+    "data": {
+      "en": "White",
+      "zh_cn": "白子",
+      "zh_tw": "白子",
+      "jp": "後手(白）"
+    }
+  },
+  {
+    "namespace": "createGame",
+    "name": "optionColorRandom",
+    "data": {
+      "en": "Random",
+      "zh_cn": "随机",
+      "zh_tw": "隨機",
+      "jp": "ランダム"
+    }
+  },
+  {
+    "namespace": "createGame",
+    "name": "infoPlayWithFriend",
+    "data": {
+      "en": "Once you create a game to play with your friend, we will create a secrete code for the game room. Share the code with your friend to start the game! If you already have the code for your friend, click \"Join a room\".",
+      "zh_cn": "当你创建遊戏後，我们会产生一个遊戏室密码。请你的朋友输入相同的密码来开始对弈。如果你的朋友已传送给你遊戏室密码，请按 \"进入遊戏室”。",
+      "zh_tw": "當你創建遊戲後，我們會產生一個遊戲室密碼。請你的朋友輸入相同的密碼來開始對弈。如果你的朋友已傳送給你遊戲室密碼，請按 \"進入遊戲室”。",
+      "jp": "ゲームを作成するとき、対局室のコードが作成されます。同じコードを友達に入力してもらうと、対局が始まります。すでに友達からコードをもらっている場合、\"対局室に入る\"ボタンを押してください。"
+    }
+  },
+  {
+    "namespace": "createGame",
+    "name": "infoPlayWithSelf",
+    "data": {
+      "en": "Start playing a game with yourself right away!",
+      "zh_cn": "开始跟自己的对弈！",
+      "zh_tw": "開始跟自己的對弈！",
+      "jp": "自分のゲームを始めましょう！"
+    }
+  },
+  {
+    "namespace": "createGame",
+    "name": "infoPlayWithAI",
+    "data": {
+      "en": "Start playing a game with AI right away!",
+      "zh_cn": "开始跟人工智能的对弈！",
+      "zh_tw": "開始跟人工智能的對弈！",
+      "jp": "人工知能のゲームを始めましょう！"
+    }
+  },
+  {
+    "namespace": "createGame",
+    "name": "komiLabel",
+    "data": {
+      "en": "Komi:",
+      "zh_cn": "贴目：",
+      "zh_tw": "貼目：",
+      "jp": "コミ："
+    }
+  },
+  {
+    "namespace": "createGame",
+    "name": "handicapLabel",
+    "data": {
+      "en": "Handicap: ",
+      "zh_cn": "让子：",
+      "zh_tw": "讓子：",
+      "jp": "置碁："
+    }
+  },
+  {
+    "namespace": "simulateBoard",
+    "name": "noGameMessage",
+    "data": {
+      "en": "You are not playing any game right now. You can play around with an empty board.",
+      "zh_cn": "你现在没有进行中的遊戏，你可以在空白的棋盘上玩玩。",
+      "zh_tw": "你現在沒有進行中的遊戲，你可以在空白的棋盤上玩玩。",
+      "jp": "あなたは進行中のゲームを持っていません、空白の囲碁を遊ぶしてください。"
+    }
+  },
+  {
+    "namespace": "simulateBoard",
+    "name": "emptyBoardOption",
+    "data": {
+      "en": "Empty board",
+      "zh_cn": "空白的棋盘",
+      "zh_tw": "空白的棋盤",
+      "jp": "空白の囲碁"
+    }
+  },
+  {
+    "namespace": "simulateBoard",
+    "name": "selectGameLabel",
+    "data": {
+      "en": "Game: ",
+      "zh_cn": "遊戏：",
+      "zh_tw": "遊戲：",
+      "jp": "ゲーム："
+    }
+  },
+  {
+    "namespace": "simulateBoard",
+    "name": "selectBoardSizeLabel",
+    "data": {
+      "en": "Board Size: ",
+      "zh_cn": "棋盘：",
+      "zh_tw": "棋盤：",
+      "jp": "碁盤："
+    }
+  },
+  {
+    "namespace": "countScore",
+    "name": "acceptButton",
+    "data": {
+      "en": "OK",
+      "zh_cn": "同意",
+      "zh_tw": "同意",
+      "jp": "同意"
+    }
+  },
+  {
+    "namespace": "countScore",
+    "name": "rejectButton",
+    "data": {
+      "en": "NO",
+      "zh_cn": "反对",
+      "zh_tw": "反對",
+      "jp": "拒否"
+    }
+  },
+  {
+    "namespace": "countScore",
+    "name": "requestedByLabel",
+    "data": {
+      "en": "Requested by %{name}",
+      "zh_cn": "由%{name}提出",
+      "zh_tw": "由%{name}提出",
+      "jp": "%{name}によって要求された"
+    }
+  },
+  {
+    "namespace": "countScore",
+    "name": "pendingLabel",
+    "data": {
+      "en": "Pending",
+      "zh_cn": "等待中",
+      "zh_tw": "等待中",
+      "jp": "ペンディング"
+    }
+  },
+  {
+    "namespace": "countScore",
+    "name": "rejectedLabel",
+    "data": {
+      "en": "Rejected",
+      "zh_cn": "被否决",
+      "zh_tw": "被否決",
+      "jp": "拒否"
+    }
+  },
+  {
+    "namespace": "countScore",
+    "name": "updatedScoringMessage",
+    "data": {
+      "en": "%{opponentName} just updated the scoring request (%{color} won by %{score} stones). Please take a look.",
+      "zh_cn": "%{opponentName}刚刚更新了目数要求 (%{color}胜%{score}目)。请看一下。",
+      "zh_tw": "%{opponentName}剛剛更新了目數要求 (%{color}勝%{score}目)。請看一下。",
+      "jp": "%{opponentName}はスコア要求(%{color}は%{score}の目で勝った)を更新しました。見てください。"
+    }
+  },
+  {
+    "namespace": "countScore",
+    "name": "seeScoringButton",
+    "data": {
+      "en": "Look at scoring",
+      "zh_cn": "查看目数要求",
+      "zh_tw": "查看目數要求",
+      "jp": "スコア要求を見る"
+    }
+  },
+  {
+    "namespace": "countScore",
+    "name": "rejectScoringMessage",
+    "data": {
+      "en": "%{opponentName} just rejected your scoring request. Please take a look.",
+      "zh_cn": "%{opponentName}刚刚反对了目數要求。请看一下。",
+      "zh_tw": "%{opponentName}剛剛反對了目數要求。請看一下。",
+      "jp": "%{opponentName}はスコア要求を拒否しました。見てください"
+    }
+  },
+  {
+    "namespace": "countScore",
+    "name": "acceptSelfScoringMessage",
+    "data": {
+      "en": "%{opponentName} just accepted your scoring request. ",
+      "zh_cn": "%{opponentName}刚接受了你的目数要求。",
+      "zh_tw": "%{opponentName}剛接受了你的目數要求。",
+      "jp": "%{opponentName}はスコア要求を受け入れました。"
+    }
+  },
+  {
+    "namespace": "countScore",
+    "name": "winsByText",
+    "data": {
+      "en": "Game with %{opponentName} is over: %{color} won by %{score} stones. ",
+      "zh_cn": "与%{opponentName}的对亦已结束：%{color}胜%{score}目。",
+      "zh_tw": "與%{opponentName}的對亦已結束：%{color}勝%{score}目。",
+      "jp": "%{color}は%{score}の目で勝った。"
+    }
+  },
+  {
+    "namespace": "countScore",
+    "name": "createdScoringMessage",
+    "data": {
+      "en": "%{opponentName} just created a scoring request (%{color} won by %{score} stones). Please take a look.",
+      "zh_cn": "%{opponentName}刚创立了目数要求 (%{color}胜%{score}目)。请看一下。",
+      "zh_tw": "%{opponentName}剛創立了目數要求 (%{color}勝%{score}目)。請看一下。",
+      "jp": "%{opponentName}はスコア要求(%{color}は%{score}の目で勝った)を作成しました。見てください"
+    }
+  },
+  {
+    "namespace": "countScore",
+    "name": "createNewScoringButton",
+    "data": {
+      "en": "Create your scoring request",
+      "zh_cn": "创立你的数目要求",
+      "zh_tw": "創立你的數目要求",
+      "jp": "あなたのスコアを作成"
+    }
+  },
+  {
+    "namespace": "countScore",
+    "name": "doYouAgreeScoringText",
+    "data": {
+      "en": "Do you agree with this scoring?",
+      "zh_cn": " 你同意这个数目要求吗？",
+      "zh_tw": " 你同意這個數目要求嗎？",
+      "jp": "あなたはスコア要求に同意しますか？"
+    }
+  },
+  {
+    "namespace": "countScore",
+    "name": "explainInfoText",
+    "data": {
+      "en": "We use Japanese territory scoring rule. Each player can make a scoring request. Once a request is accepted, the scoring becomes final and the game officially ends.",
+      "zh_cn": "我们使用比目法。每个玩家可以提出一个数目要求。一旦要求被接受，就会成为最终的得分，遊戏正式结束。",
+      "zh_tw": "我們使用比目法。每個玩家可以提出一個数目要求。一旦要求被接受，就會成為最終的得分，遊戲正式結束。",
+      "jp": "各プレイヤーは、スコア要求を要求することができます。要求が受け入れられると、スコアリングは最終的になり、ゲームは正式に終了する。"
+    }
+  },
+  {
+    "namespace": "countScore",
+    "name": "totalScore",
+    "data": {
+      "en": "Final score",
+      "zh_cn": "最终分",
+      "zh_tw": "最終分",
+      "jp": "スコア"
+    }
+  },
+  {
+    "namespace": "countScore",
+    "name": "scoringListHeader",
+    "data": {
+      "en": "Scoring Requests",
+      "zh_cn": "数目要求",
+      "zh_tw": "數目要求",
+      "jp": "スコア要求"
+    }
+  },
+  {
+    "namespace": "chat",
+    "name": "messageInputPlaceholder",
+    "data": {
+      "en": "Write your message...",
+      "zh_cn": "\b输入信息...",
+      "zh_tw": "\b輸入信息...",
+      "jp": "メールを入力..."
+    }
+  }
+]

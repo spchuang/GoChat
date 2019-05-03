@@ -1,0 +1,22 @@
+---
+- hosts: app
+  tasks:
+    - name: Clone or update repo
+      git: repo={{project_repo}} version={{git_branch}} dest={{project_root}}/{{project_name}} update=yes accept_hostkey=yes
+      register: git_finished
+
+    - name: Run NPM install
+      npm: path={{project_root}}/{{project_name}}
+      register: npm_finished
+      when: git_finished.changed
+
+    - name: Start app
+      become: yes
+      become_user: web
+      command: pm2 start {{project_root}}/{{project_name}}.json
+      ignore_errors: yes
+
+    - name: Save pm2 process
+      become: yes
+      become_user: web
+      command: pm2 save

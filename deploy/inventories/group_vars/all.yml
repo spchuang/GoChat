@@ -1,0 +1,6 @@
+---
+web_user: web
+project_name: playGo
+project_root: /var/www
+project_repo: git@github.com:spchuang/playGo.git
+project_script: build/app.js

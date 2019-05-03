@@ -1,0 +1,20 @@
+{
+  "local": {
+    "dialect": "sqlite",
+    "storage": "./db.development.sqlite"
+  },
+  "development": {
+    "username": "",
+    "password": "",
+    "database": "",
+    "host": "",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "",
+    "password": "",
+    "database": "",
+    "host": "",
+    "dialect": "mysql"
+  }
+}

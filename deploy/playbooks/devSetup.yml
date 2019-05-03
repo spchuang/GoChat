@@ -1,0 +1,62 @@
+---
+- include: init.yml
+- hosts: app
+  vars:
+    ssl_cert: test.crt # replace this
+    ssl_key: test.key # replace this
+  pre_tasks:
+    - name: Create ssl folder
+      file: path=/etc/ssl/{{project_name}} group={{web_user}} owner={{web_user}} mode=6755 state=directory
+    - name: Copy SSL certificates
+      copy:
+        src: "{{item.src}}"
+        dest: "{{item.dest}}"
+        owner: "{{web_user}}"
+        group: "{{web_user}}"
+        mode: "{{755}}"
+      with_items:
+        - { src: "ssl/{{ssl_cert}}", dest: "/etc/ssl/{{project_name}}/{{ssl_cert}}" }
+        - { src: "ssl/{{ssl_key}}", dest: "/etc/ssl/{{project_name}}/{{ssl_key}}" }
+
+  tasks:
+    - name: Install Packages
+      become: yes
+      become_method: sudo
+      apt: name={{ item }} update_cache=yes state=latest
+      with_items:
+        - git
+        - build-essential
+
+    - name: Install pm2
+      become: yes
+      become_method: sudo
+      npm: name=pm2 global=yes state=present production=yes
+
+    - name: Create project folder
+      file: path={{project_root}}/{{project_name}} group={{web_user}} owner={{web_user}} mode=6755 state=directory
+
+    - name: Add pm2 start script
+      template: src=templates/app.j2 dest={{project_root}}/{{project_name}}.json
+
+  roles:
+    - role: ansible-role-nginx
+      nginx_user: "{{web_user}}"
+      nginx_sites:
+        default:
+         - listen 80
+         - listen 443 ssl
+         - server_name {{server_name}}
+         - location / {
+             proxy_pass http://backend;
+           }
+      nginx_configs:
+        ssl:
+          - ssl_certificate_key /etc/ssl/{{project_name}}/{{ssl_key}}
+          - ssl_certificate /etc/ssl/{{project_name}}/{{ssl_cert}}
+        proxy:
+          - proxy_set_header Host $host
+          - proxy_set_header X-Real-IP $remote_addr
+          - proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for
+          - proxy_set_header X-Forwarded-Proto $scheme
+        upstream:
+          - upstream backend { server 0.0.0.0:5000; }

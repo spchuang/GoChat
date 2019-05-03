@@ -1,0 +1,14 @@
+[ignore]
+.*/node_modules/fbjs/.*
+.*/node_modules/config-chain/test/broken.json
+.*/node_modules/npmconf/test/.*
+.*/node_modules/fb-local-chat-bot/localChatWeb/js/src/.*
+.*/node_modules/fb-local-chat-bot/src/.*
+.*/node_modules/esformatter-flow/test/.*
+.*/node_modules/esformatter/test/.*
+
+[libs]
+flow-typed/
+
+[options]
+suppress_comment= \\(.\\|\n\\)*\\$FlowFixMe

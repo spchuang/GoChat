@@ -1,0 +1,53 @@
+body {
+  padding-top: 60px;
+}
+
+.translationPhrase .panel-heading h4 {
+ margin: 0;
+}
+
+.translationPhrase .form-group:last-child {
+  margin-bottom: 0;
+}
+
+.translationContainer .spinner {
+  margin-top: 100px;
+}
+
+.translationContainer .navbar button {
+  margin-right: 10px;
+}
+
+.translationContainer .modal.show {
+  display: block;
+}
+
+@media (min-width: 992px) {
+  .sidePanel {
+    position: fixed;
+    right: 60px;
+    height: 85%;
+    overflow-y: auto;
+  }
+}
+
+.sidePanel .list-group-item{
+  border-radius: 0;
+}
+
+.sidePanelListTopItem .list-group {
+  padding-left: 20px;
+}
+
+.sidePanelListTopItem .list-group .list-group-item {
+  font-size: 12px;
+  padding: 8px 10px;
+}
+
+.translationName select {
+  margin-right: 10px;
+}
+
+.translationName input {
+  margin-left: 10px;
+}

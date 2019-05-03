@@ -1,0 +1,9 @@
+---
+# node script environments
+script_env:
+  NODE_ENV: dev
+
+git_branch: dev
+
+# nginx
+server_name: playmessengergo.space www.playmessengergo.space

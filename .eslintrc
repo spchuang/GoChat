@@ -1,0 +1,54 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    // in CommonJS
+    "node": true
+  },
+  "extends": [
+    "defaults/configurations/eslint",
+  ],
+
+  "rules": {
+    // possible
+    "comma-dangle": ["error", "only-multiline"],
+    // best practices
+    curly: "error",
+    no-eval: "error",
+    radix: "error",
+    no-redeclare: "error",
+    no-return-assign: "error",
+    no-unmodified-loop-condition: "error",
+    no-unused-expressions: ["error", {"allowShortCircuit": true}],
+    no-unused-vars: ["error", { "varsIgnorePattern": "_" }],
+    no-useless-escape: "error",
+    eqeqeq: "error",
+    no-multi-spaces: "error",
+    block-scoped-var: "error",
+    no-use-before-define: ["error", {"functions": false}],
+
+    // styles
+    "quotes": [2, "single"],
+    "eol-last": [0],
+    "no-mixed-requires": [0],
+    "no-underscore-dangle": [0],
+    "no-console": ["error", {allow: ["log"]}]
+  },
+
+  "globals": {
+    "APP_ROOT": true,
+    "error": true,
+    "info": true,
+    "EXCEPTION": true,
+    "EXCEPTION_MESSAGE": true,
+    "TypedError": true,
+
+    // flow types
+    StonePosition: true,
+    BoardSize: true,
+    StoneMove: true,
+    StoneColor: true,
+    Stone: true,
+    GameColorOption: true,
+    TranslationName: true,
+  }
+}

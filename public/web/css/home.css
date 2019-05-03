@@ -1,0 +1,170 @@
+/**
+ * layout
+ */
+html {
+  min-height: 100%;
+  height: 100%;
+}
+
+/* Remove bootstrap horizontal margin */
+html,
+body {
+  overflow: hidden;
+  position: relative;
+}
+
+.default {
+  height: inherit;
+}
+
+.center {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+/**
+ * Animation
+ */
+
+ .animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+@keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+.delayed {
+  -webkit-animation-delay: .4s;
+  /* Chrome, Safari, Opera */
+  animation-delay: .4s; }
+
+/* Vertically align content on desktop */
+@media (min-width: 767px) {
+  .display-table {
+    display: table;
+    table-layout: fixed;
+  }
+
+  .vert-cell {
+    display: table-cell;
+    vertical-align: middle;
+    float: none;
+  }
+}
+
+/* remove full-height when stacking */
+@media (max-width: 767px) {
+  html {
+    overflow: auto;
+    height: auto;
+  }
+
+  .right {
+    padding-bottom: 40px; /* Footer */
+  }
+
+  video.video-app {
+    left: 37px;
+    top: 83px;
+    width: 219px;
+  }
+}
+
+/**
+ * Right content
+ */
+.right {
+  background-color: #CEB053;
+  background-image: url("/web/images/wood.jpg");
+  overflow: hidden;
+}
+
+.video {
+  margin: auto;
+  width: 372px;
+  height: 705px;
+  background-image: url("/web/images/iphone.png");
+  background-size: 372px 705px;
+}
+
+.video-app {
+  width: 280px;
+  position: relative;
+  left: 46px;
+  top: 105px;
+}
+
+@media (max-width: 767px) {
+  .video {
+    width: 294px;
+    height: 557px;
+    background-size: 294px 557px;
+  }
+}
+
+/**
+ * Left content
+ */
+ .left {
+   padding: 200px 0;
+ }
+
+ .logo {
+   margin-bottom: 20px;
+ }
+
+ .sub-text {
+   color: #8a93a5;
+   font-size: 20px;
+   line-height: 1.6;
+   margin-bottom: 25px;
+ }
+
+ .fb-messenger-wrapper {
+   height: 36px;
+ }
+
+ /* remove full-height when stacking */
+ @media (max-width: 767px) {
+   .left {
+     padding: 100px 0;
+   }
+ }
+
+ .modal-body {
+   padding: 25px;
+ }
+
+ .policy-body {
+  color: #404040;
+  font-size: 13px;
+ }
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+}
+
+.footer,
+.footer a {
+  color: rgba(138, 147, 165, 0.85);
+}

@@ -1,0 +1,11 @@
+{
+  "apps": [{
+    "name"      : "{{project_name}}",
+    "script"    : "{{project_root}}/{{project_name}}/{{project_script}}",
+    "env": {
+    {% for env, value in script_env.iteritems() %}
+      "{{env}}": "{{value}}"
+    {% endfor %}
+    }
+  }]
+}
