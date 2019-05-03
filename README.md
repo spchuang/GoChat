@@ -1,6 +1,6 @@
 # GoChat
 
-This is a source code for [GoChat](http://playmessengergo.com), a Facebook messenger chat bot that allows users to play Go with  people.
+This is a source code for [GoChat](http://playmessengergo.com), a Facebook messenger chat bot that allows users to play Go with  people. with [@jouyang](https://github.com/jouyang) and [@m1chuang](https://github.com/m1chuang)
 
 ## Quick Start
 
